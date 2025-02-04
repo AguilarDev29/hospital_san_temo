@@ -20,7 +20,7 @@ namespace Final_TallerdeProgramacion_Aguilar_Juarez.vista
                         "INNER JOIN paciente p ON t.id_paciente = p.id " +
                         "INNER JOIN medico m ON t.id_medico = m.id " +
                         "INNER JOIN especialidad e ON m.id_especialidad = e.id " +
-                        "WHERE t.id_paciente = @idPaciente AND t.cancelado = 'NO';";
+                        "WHERE t.id_paciente = @idPaciente AND t.cancelado = 'NO' AND t.atendido = 'NO';";
             using (SqlConnection conn = Conexion.Conectar())
             {
                 SqlCommand cmd = new SqlCommand(query, conn);

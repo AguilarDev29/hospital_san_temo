@@ -40,7 +40,7 @@ namespace Final_TallerdeProgramacion_Aguilar_Juarez.vista
 
         private void Turnos(int idPaciente)
         {
-            string query = "SELECT t.id, CONCAT(m.apellido, ', ', m.nombre) " +
+            string query = "SELECT CONCAT(m.apellido, ', ', m.nombre) " +
                         "AS medico, e.nombre AS especialidad FROM turno t " +
                         "INNER JOIN paciente p ON t.id_paciente = p.id " +
                         "INNER JOIN medico m ON t.id_medico = m.id " +
@@ -54,7 +54,7 @@ namespace Final_TallerdeProgramacion_Aguilar_Juarez.vista
                 cbTurnos.Items.Clear(); // Limpiar los elementos anteriores
                 while (reader.Read())
                 {
-                    cbTurnos.Items.Add(reader.GetInt32(0) + " - " + reader.GetString(1) + " - " + reader.GetString(2));
+                    cbTurnos.Items.Add(reader.GetString(0) + " - " + reader.GetString(1));
                 }
             }
         }

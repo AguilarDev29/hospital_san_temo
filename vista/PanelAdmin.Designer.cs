@@ -44,7 +44,6 @@
             this.horarioDeTurnoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.atendidoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.vistaturnospendientesBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.hospital_san_telmoDataSet9 = new Final_TallerdeProgramacion_Aguilar_Juarez.hospital_san_telmoDataSet9();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.apellidoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -58,7 +57,6 @@
             this.emailDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.obraSocialDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.vistapacientesBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.hospital_san_telmoDataSet7 = new Final_TallerdeProgramacion_Aguilar_Juarez.hospital_san_telmoDataSet7();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
             this.apellidoDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -70,41 +68,40 @@
             this.especialidadDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.plusDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.vistamedicosBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.hospital_san_telmoDataSet8 = new Final_TallerdeProgramacion_Aguilar_Juarez.hospital_san_telmoDataSet8();
             this.vistaturnospendientesBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.hospital_san_telmoDataSet4 = new Final_TallerdeProgramacion_Aguilar_Juarez.hospital_san_telmoDataSet4();
             this.vistapacientesBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.hospital_san_telmoDataSet5 = new Final_TallerdeProgramacion_Aguilar_Juarez.hospital_san_telmoDataSet5();
             this.vistamedicosBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.hospital_san_telmoDataSet6 = new Final_TallerdeProgramacion_Aguilar_Juarez.hospital_san_telmoDataSet6();
             this.btnFinanzas = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
             this.btnCargarMedicos = new System.Windows.Forms.Button();
-            this.vista_turnos_pendientesTableAdapter = new Final_TallerdeProgramacion_Aguilar_Juarez.hospital_san_telmoDataSet4TableAdapters.vista_turnos_pendientesTableAdapter();
-            this.vista_pacientesTableAdapter = new Final_TallerdeProgramacion_Aguilar_Juarez.hospital_san_telmoDataSet5TableAdapters.vista_pacientesTableAdapter();
-            this.vista_medicosTableAdapter = new Final_TallerdeProgramacion_Aguilar_Juarez.hospital_san_telmoDataSet6TableAdapters.vista_medicosTableAdapter();
-            this.vista_pacientesTableAdapter1 = new Final_TallerdeProgramacion_Aguilar_Juarez.hospital_san_telmoDataSet7TableAdapters.vista_pacientesTableAdapter();
-            this.vista_medicosTableAdapter1 = new Final_TallerdeProgramacion_Aguilar_Juarez.hospital_san_telmoDataSet8TableAdapters.vista_medicosTableAdapter();
-            this.vista_turnos_pendientesTableAdapter1 = new Final_TallerdeProgramacion_Aguilar_Juarez.hospital_san_telmoDataSet9TableAdapters.vista_turnos_pendientesTableAdapter();
+            this.hospital_san_telmoDataSet13 = new Final_TallerdeProgramacion_Aguilar_Juarez.hospital_san_telmoDataSet13();
+            this.vistaturnospendientesBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
+            this.vista_turnos_pendientesTableAdapter2 = new Final_TallerdeProgramacion_Aguilar_Juarez.hospital_san_telmoDataSet13TableAdapters.vista_turnos_pendientesTableAdapter();
+            this.hospital_san_telmoDataSet14 = new Final_TallerdeProgramacion_Aguilar_Juarez.hospital_san_telmoDataSet14();
+            this.vistapacientesBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
+            this.vista_pacientesTableAdapter2 = new Final_TallerdeProgramacion_Aguilar_Juarez.hospital_san_telmoDataSet14TableAdapters.vista_pacientesTableAdapter();
+            this.hospital_san_telmoDataSet15 = new Final_TallerdeProgramacion_Aguilar_Juarez.hospital_san_telmoDataSet15();
+            this.vistamedicosBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
+            this.vista_medicosTableAdapter2 = new Final_TallerdeProgramacion_Aguilar_Juarez.hospital_san_telmoDataSet15TableAdapters.vista_medicosTableAdapter();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.vistaturnospendientesBindingSource1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hospital_san_telmoDataSet9)).BeginInit();
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.vistapacientesBindingSource1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hospital_san_telmoDataSet7)).BeginInit();
             this.tabPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.vistamedicosBindingSource1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hospital_san_telmoDataSet8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.vistaturnospendientesBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hospital_san_telmoDataSet4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.vistapacientesBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hospital_san_telmoDataSet5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.vistamedicosBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hospital_san_telmoDataSet6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hospital_san_telmoDataSet13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.vistaturnospendientesBindingSource2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hospital_san_telmoDataSet14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.vistapacientesBindingSource2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hospital_san_telmoDataSet15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.vistamedicosBindingSource2)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -142,7 +139,7 @@
             this.fechaDeTurnoDataGridViewTextBoxColumn,
             this.horarioDeTurnoDataGridViewTextBoxColumn,
             this.atendidoDataGridViewTextBoxColumn});
-            this.dataGridView1.DataSource = this.vistaturnospendientesBindingSource1;
+            this.dataGridView1.DataSource = this.vistaturnospendientesBindingSource2;
             this.dataGridView1.GridColor = System.Drawing.Color.Black;
             this.dataGridView1.Location = new System.Drawing.Point(0, 0);
             this.dataGridView1.Name = "dataGridView1";
@@ -184,12 +181,9 @@
             // vistaturnospendientesBindingSource1
             // 
             this.vistaturnospendientesBindingSource1.DataMember = "vista_turnos_pendientes";
-            this.vistaturnospendientesBindingSource1.DataSource = this.hospital_san_telmoDataSet9;
             // 
             // hospital_san_telmoDataSet9
             // 
-            this.hospital_san_telmoDataSet9.DataSetName = "hospital_san_telmoDataSet9";
-            this.hospital_san_telmoDataSet9.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // tabPage2
             // 
@@ -228,7 +222,7 @@
             this.teléfonoDataGridViewTextBoxColumn,
             this.emailDataGridViewTextBoxColumn,
             this.obraSocialDataGridViewTextBoxColumn});
-            this.dataGridView2.DataSource = this.vistapacientesBindingSource1;
+            this.dataGridView2.DataSource = this.vistapacientesBindingSource2;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -314,12 +308,9 @@
             // vistapacientesBindingSource1
             // 
             this.vistapacientesBindingSource1.DataMember = "vista_pacientes";
-            this.vistapacientesBindingSource1.DataSource = this.hospital_san_telmoDataSet7;
             // 
             // hospital_san_telmoDataSet7
             // 
-            this.hospital_san_telmoDataSet7.DataSetName = "hospital_san_telmoDataSet7";
-            this.hospital_san_telmoDataSet7.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // tabPage3
             // 
@@ -355,7 +346,7 @@
             this.emailDataGridViewTextBoxColumn1,
             this.especialidadDataGridViewTextBoxColumn,
             this.plusDataGridViewTextBoxColumn});
-            this.dataGridView3.DataSource = this.vistamedicosBindingSource1;
+            this.dataGridView3.DataSource = this.vistamedicosBindingSource2;
             dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Window;
             dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -430,42 +421,30 @@
             // vistamedicosBindingSource1
             // 
             this.vistamedicosBindingSource1.DataMember = "vista_medicos";
-            this.vistamedicosBindingSource1.DataSource = this.hospital_san_telmoDataSet8;
             // 
             // hospital_san_telmoDataSet8
             // 
-            this.hospital_san_telmoDataSet8.DataSetName = "hospital_san_telmoDataSet8";
-            this.hospital_san_telmoDataSet8.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // vistaturnospendientesBindingSource
             // 
             this.vistaturnospendientesBindingSource.DataMember = "vista_turnos_pendientes";
-            this.vistaturnospendientesBindingSource.DataSource = this.hospital_san_telmoDataSet4;
             // 
             // hospital_san_telmoDataSet4
             // 
-            this.hospital_san_telmoDataSet4.DataSetName = "hospital_san_telmoDataSet4";
-            this.hospital_san_telmoDataSet4.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // vistapacientesBindingSource
             // 
             this.vistapacientesBindingSource.DataMember = "vista_pacientes";
-            this.vistapacientesBindingSource.DataSource = this.hospital_san_telmoDataSet5;
             // 
             // hospital_san_telmoDataSet5
             // 
-            this.hospital_san_telmoDataSet5.DataSetName = "hospital_san_telmoDataSet5";
-            this.hospital_san_telmoDataSet5.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // vistamedicosBindingSource
             // 
             this.vistamedicosBindingSource.DataMember = "vista_medicos";
-            this.vistamedicosBindingSource.DataSource = this.hospital_san_telmoDataSet6;
             // 
             // hospital_san_telmoDataSet6
             // 
-            this.hospital_san_telmoDataSet6.DataSetName = "hospital_san_telmoDataSet6";
-            this.hospital_san_telmoDataSet6.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // btnFinanzas
             // 
@@ -500,29 +479,47 @@
             this.btnCargarMedicos.UseVisualStyleBackColor = true;
             this.btnCargarMedicos.Click += new System.EventHandler(this.btnCargarMedicos_Click);
             // 
-            // vista_turnos_pendientesTableAdapter
+            // hospital_san_telmoDataSet13
             // 
-            this.vista_turnos_pendientesTableAdapter.ClearBeforeFill = true;
+            this.hospital_san_telmoDataSet13.DataSetName = "hospital_san_telmoDataSet13";
+            this.hospital_san_telmoDataSet13.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // vista_pacientesTableAdapter
+            // vistaturnospendientesBindingSource2
             // 
-            this.vista_pacientesTableAdapter.ClearBeforeFill = true;
+            this.vistaturnospendientesBindingSource2.DataMember = "vista_turnos_pendientes";
+            this.vistaturnospendientesBindingSource2.DataSource = this.hospital_san_telmoDataSet13;
             // 
-            // vista_medicosTableAdapter
+            // vista_turnos_pendientesTableAdapter2
             // 
-            this.vista_medicosTableAdapter.ClearBeforeFill = true;
+            this.vista_turnos_pendientesTableAdapter2.ClearBeforeFill = true;
             // 
-            // vista_pacientesTableAdapter1
+            // hospital_san_telmoDataSet14
             // 
-            this.vista_pacientesTableAdapter1.ClearBeforeFill = true;
+            this.hospital_san_telmoDataSet14.DataSetName = "hospital_san_telmoDataSet14";
+            this.hospital_san_telmoDataSet14.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // vista_medicosTableAdapter1
+            // vistapacientesBindingSource2
             // 
-            this.vista_medicosTableAdapter1.ClearBeforeFill = true;
+            this.vistapacientesBindingSource2.DataMember = "vista_pacientes";
+            this.vistapacientesBindingSource2.DataSource = this.hospital_san_telmoDataSet14;
             // 
-            // vista_turnos_pendientesTableAdapter1
+            // vista_pacientesTableAdapter2
             // 
-            this.vista_turnos_pendientesTableAdapter1.ClearBeforeFill = true;
+            this.vista_pacientesTableAdapter2.ClearBeforeFill = true;
+            // 
+            // hospital_san_telmoDataSet15
+            // 
+            this.hospital_san_telmoDataSet15.DataSetName = "hospital_san_telmoDataSet15";
+            this.hospital_san_telmoDataSet15.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // vistamedicosBindingSource2
+            // 
+            this.vistamedicosBindingSource2.DataMember = "vista_medicos";
+            this.vistamedicosBindingSource2.DataSource = this.hospital_san_telmoDataSet15;
+            // 
+            // vista_medicosTableAdapter2
+            // 
+            this.vista_medicosTableAdapter2.ClearBeforeFill = true;
             // 
             // PanelAdmin
             // 
@@ -541,21 +538,21 @@
             this.tabPage1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.vistaturnospendientesBindingSource1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hospital_san_telmoDataSet9)).EndInit();
             this.tabPage2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.vistapacientesBindingSource1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hospital_san_telmoDataSet7)).EndInit();
             this.tabPage3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.vistamedicosBindingSource1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hospital_san_telmoDataSet8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.vistaturnospendientesBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hospital_san_telmoDataSet4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.vistapacientesBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hospital_san_telmoDataSet5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.vistamedicosBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hospital_san_telmoDataSet6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hospital_san_telmoDataSet13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.vistaturnospendientesBindingSource2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hospital_san_telmoDataSet14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.vistapacientesBindingSource2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hospital_san_telmoDataSet15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.vistamedicosBindingSource2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -569,19 +566,11 @@
         private System.Windows.Forms.Button btnSalir;
         private System.Windows.Forms.Button btnCargarMedicos;
         private System.Windows.Forms.TabPage tabPage3;
-        private hospital_san_telmoDataSet4 hospital_san_telmoDataSet4;
         private System.Windows.Forms.BindingSource vistaturnospendientesBindingSource;
-        private hospital_san_telmoDataSet4TableAdapters.vista_turnos_pendientesTableAdapter vista_turnos_pendientesTableAdapter;
-        private hospital_san_telmoDataSet5 hospital_san_telmoDataSet5;
         private System.Windows.Forms.BindingSource vistapacientesBindingSource;
-        private hospital_san_telmoDataSet5TableAdapters.vista_pacientesTableAdapter vista_pacientesTableAdapter;
-        private hospital_san_telmoDataSet6 hospital_san_telmoDataSet6;
         private System.Windows.Forms.BindingSource vistamedicosBindingSource;
-        private hospital_san_telmoDataSet6TableAdapters.vista_medicosTableAdapter vista_medicosTableAdapter;
         private System.Windows.Forms.DataGridView dataGridView2;
-        private hospital_san_telmoDataSet7 hospital_san_telmoDataSet7;
         private System.Windows.Forms.BindingSource vistapacientesBindingSource1;
-        private hospital_san_telmoDataSet7TableAdapters.vista_pacientesTableAdapter vista_pacientesTableAdapter1;
         private System.Windows.Forms.DataGridViewTextBoxColumn apellidoDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn nombreDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn dNIDataGridViewTextBoxColumn;
@@ -593,9 +582,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn emailDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn obraSocialDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridView dataGridView3;
-        private hospital_san_telmoDataSet8 hospital_san_telmoDataSet8;
         private System.Windows.Forms.BindingSource vistamedicosBindingSource1;
-        private hospital_san_telmoDataSet8TableAdapters.vista_medicosTableAdapter vista_medicosTableAdapter1;
         private System.Windows.Forms.DataGridViewTextBoxColumn apellidoDataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn nombreDataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn dNIDataGridViewTextBoxColumn1;
@@ -605,13 +592,20 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn especialidadDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn plusDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private hospital_san_telmoDataSet9 hospital_san_telmoDataSet9;
         private System.Windows.Forms.BindingSource vistaturnospendientesBindingSource1;
-        private hospital_san_telmoDataSet9TableAdapters.vista_turnos_pendientesTableAdapter vista_turnos_pendientesTableAdapter1;
         private System.Windows.Forms.DataGridViewTextBoxColumn pacienteDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn medicoDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn fechaDeTurnoDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn horarioDeTurnoDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn atendidoDataGridViewTextBoxColumn;
+        private hospital_san_telmoDataSet13 hospital_san_telmoDataSet13;
+        private System.Windows.Forms.BindingSource vistaturnospendientesBindingSource2;
+        private hospital_san_telmoDataSet13TableAdapters.vista_turnos_pendientesTableAdapter vista_turnos_pendientesTableAdapter2;
+        private hospital_san_telmoDataSet14 hospital_san_telmoDataSet14;
+        private System.Windows.Forms.BindingSource vistapacientesBindingSource2;
+        private hospital_san_telmoDataSet14TableAdapters.vista_pacientesTableAdapter vista_pacientesTableAdapter2;
+        private hospital_san_telmoDataSet15 hospital_san_telmoDataSet15;
+        private System.Windows.Forms.BindingSource vistamedicosBindingSource2;
+        private hospital_san_telmoDataSet15TableAdapters.vista_medicosTableAdapter vista_medicosTableAdapter2;
     }
 }

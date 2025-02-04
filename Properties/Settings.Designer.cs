@@ -33,5 +33,16 @@ namespace Final_TallerdeProgramacion_Aguilar_Juarez.Properties {
                 return ((string)(this["hospital_san_telmoConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=MATIAS\\SQLEXPRESS;Initial Catalog=hospital_san_telmo;Integrated Secur" +
+            "ity=True;Encrypt=False;TrustServerCertificate=True")]
+        public string hospital_san_telmoConnectionString1 {
+            get {
+                return ((string)(this["hospital_san_telmoConnectionString1"]));
+            }
+        }
     }
 }

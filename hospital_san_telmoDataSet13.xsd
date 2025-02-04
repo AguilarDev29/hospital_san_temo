@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="hospital_san_telmoDataSet13" targetNamespace="http://tempuri.org/hospital_san_telmoDataSet13.xsd" xmlns:mstns="http://tempuri.org/hospital_san_telmoDataSet13.xsd" xmlns="http://tempuri.org/hospital_san_telmoDataSet13.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="hospital_san_telmoConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="hospital_san_telmoConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Final_TallerdeProgramacion_Aguilar_Juarez.Properties.Settings.GlobalReference.Default.hospital_san_telmoConnectionString1" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vista_turnos_pendientesTableAdapter" GeneratorDataComponentClassName="vista_turnos_pendientesTableAdapter" Name="vista_turnos_pendientes" UserDataComponentName="vista_turnos_pendientesTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="hospital_san_telmoConnectionString1 (Settings)" DbObjectName="hospital_san_telmo.dbo.vista_turnos_pendientes" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Paciente, Medico, [Fecha de Turno], [Horario de Turno], Atendido FROM dbo.vista_turnos_pendientes</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Paciente" DataSetColumn="Paciente" />
+              <Mapping SourceColumn="Medico" DataSetColumn="Medico" />
+              <Mapping SourceColumn="Fecha de Turno" DataSetColumn="Fecha de Turno" />
+              <Mapping SourceColumn="Horario de Turno" DataSetColumn="Horario de Turno" />
+              <Mapping SourceColumn="Atendido" DataSetColumn="Atendido" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="hospital_san_telmoDataSet13" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_UserDSName="hospital_san_telmoDataSet13" msprop:Generator_DataSetName="hospital_san_telmoDataSet13">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="vista_turnos_pendientes" msprop:Generator_RowEvHandlerName="vista_turnos_pendientesRowChangeEventHandler" msprop:Generator_RowDeletedName="vista_turnos_pendientesRowDeleted" msprop:Generator_RowDeletingName="vista_turnos_pendientesRowDeleting" msprop:Generator_RowEvArgName="vista_turnos_pendientesRowChangeEvent" msprop:Generator_TablePropName="vista_turnos_pendientes" msprop:Generator_RowChangedName="vista_turnos_pendientesRowChanged" msprop:Generator_RowChangingName="vista_turnos_pendientesRowChanging" msprop:Generator_TableClassName="vista_turnos_pendientesDataTable" msprop:Generator_RowClassName="vista_turnos_pendientesRow" msprop:Generator_TableVarName="tablevista_turnos_pendientes" msprop:Generator_UserTableName="vista_turnos_pendientes">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Paciente" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInRow="Paciente" msprop:Generator_ColumnPropNameInTable="PacienteColumn" msprop:Generator_ColumnVarNameInTable="columnPaciente" msprop:Generator_UserColumnName="Paciente" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="202" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Medico" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInRow="Medico" msprop:Generator_ColumnPropNameInTable="MedicoColumn" msprop:Generator_ColumnVarNameInTable="columnMedico" msprop:Generator_UserColumnName="Medico" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="206" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Fecha_x0020_de_x0020_Turno" msprop:Generator_ColumnPropNameInRow="Fecha_de_Turno" msprop:Generator_ColumnPropNameInTable="Fecha_de_TurnoColumn" msprop:Generator_ColumnVarNameInTable="columnFecha_de_Turno" msprop:Generator_UserColumnName="Fecha de Turno" type="xs:dateTime" />
+              <xs:element name="Horario_x0020_de_x0020_Turno" msprop:Generator_ColumnPropNameInRow="Horario_de_Turno" msprop:Generator_ColumnPropNameInTable="Horario_de_TurnoColumn" msprop:Generator_ColumnVarNameInTable="columnHorario_de_Turno" msprop:Generator_UserColumnName="Horario de Turno" type="xs:duration" />
+              <xs:element name="Atendido" msprop:Generator_ColumnPropNameInRow="Atendido" msprop:Generator_ColumnPropNameInTable="AtendidoColumn" msprop:Generator_ColumnVarNameInTable="columnAtendido" msprop:Generator_UserColumnName="Atendido">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

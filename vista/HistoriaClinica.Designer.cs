@@ -31,12 +31,9 @@
             this.components = new System.ComponentModel.Container();
             this.dataGridViewHistoriaClinica = new System.Windows.Forms.DataGridView();
             this.spListarhistoriaclinicaBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.hospital_san_telmoDataSet10 = new Final_TallerdeProgramacion_Aguilar_Juarez.hospital_san_telmoDataSet10();
-            this.spListar_historia_clinicaTableAdapter = new Final_TallerdeProgramacion_Aguilar_Juarez.hospital_san_telmoDataSet10TableAdapters.spListar_historia_clinicaTableAdapter();
             this.btnVolver = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewHistoriaClinica)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.spListarhistoriaclinicaBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hospital_san_telmoDataSet10)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridViewHistoriaClinica
@@ -53,21 +50,11 @@
             // spListarhistoriaclinicaBindingSource
             // 
             this.spListarhistoriaclinicaBindingSource.DataMember = "spListar_historia_clinica";
-            this.spListarhistoriaclinicaBindingSource.DataSource = this.hospital_san_telmoDataSet10;
-            // 
-            // hospital_san_telmoDataSet10
-            // 
-            this.hospital_san_telmoDataSet10.DataSetName = "hospital_san_telmoDataSet10";
-            this.hospital_san_telmoDataSet10.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // spListar_historia_clinicaTableAdapter
-            // 
-            this.spListar_historia_clinicaTableAdapter.ClearBeforeFill = true;
             // 
             // btnVolver
             // 
             this.btnVolver.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVolver.Location = new System.Drawing.Point(157, 326);
+            this.btnVolver.Location = new System.Drawing.Point(157, 324);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(120, 41);
             this.btnVolver.TabIndex = 1;
@@ -80,7 +67,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Final_TallerdeProgramacion_Aguilar_Juarez.Properties.Resources.Minimalist_Hospital_and_Medical_Health_Logo__1_;
-            this.ClientSize = new System.Drawing.Size(436, 377);
+            this.ClientSize = new System.Drawing.Size(436, 376);
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.dataGridViewHistoriaClinica);
             this.Name = "HistoriaClinica";
@@ -88,7 +75,6 @@
             this.Load += new System.EventHandler(this.HistoriaClinica_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewHistoriaClinica)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.spListarhistoriaclinicaBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hospital_san_telmoDataSet10)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -97,8 +83,6 @@
 
         private System.Windows.Forms.DataGridView dataGridViewHistoriaClinica;
         private System.Windows.Forms.BindingSource spListarhistoriaclinicaBindingSource;
-        private hospital_san_telmoDataSet10 hospital_san_telmoDataSet10;
-        private hospital_san_telmoDataSet10TableAdapters.spListar_historia_clinicaTableAdapter spListar_historia_clinicaTableAdapter;
         private System.Windows.Forms.Button btnVolver;
     }
 }

@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.hospital_san_telmoDataSet11 = new Final_TallerdeProgramacion_Aguilar_Juarez.hospital_san_telmoDataSet11();
             this.btnExportarExcel = new System.Windows.Forms.Button();
             this.btnVolver = new System.Windows.Forms.Button();
             this.pFechaDesde = new System.Windows.Forms.DateTimePicker();
@@ -36,14 +35,11 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.dataGridViewFinanzas = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.hospital_san_telmoDataSet11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewFinanzas)).BeginInit();
             this.SuspendLayout();
             // 
             // hospital_san_telmoDataSet11
             // 
-            this.hospital_san_telmoDataSet11.DataSetName = "hospital_san_telmoDataSet11";
-            this.hospital_san_telmoDataSet11.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // btnExportarExcel
             // 
@@ -132,7 +128,6 @@
             this.Name = "Finanzas";
             this.Text = "Finanzas";
             this.Load += new System.EventHandler(this.Finanzas_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.hospital_san_telmoDataSet11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewFinanzas)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -140,7 +135,6 @@
         }
 
         #endregion
-        private hospital_san_telmoDataSet11 hospital_san_telmoDataSet11;
         private System.Windows.Forms.Button btnExportarExcel;
         private System.Windows.Forms.Button btnVolver;
         private System.Windows.Forms.DateTimePicker pFechaDesde;

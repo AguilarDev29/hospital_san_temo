@@ -120,9 +120,6 @@
             this.cbEspecialidad.BackColor = System.Drawing.Color.Ivory;
             this.cbEspecialidad.Font = new System.Drawing.Font("Georgia", 10.25F);
             this.cbEspecialidad.FormattingEnabled = true;
-            this.cbEspecialidad.Items.AddRange(new object[] {
-            "Masculino",
-            "Femenino"});
             this.cbEspecialidad.Location = new System.Drawing.Point(404, 128);
             this.cbEspecialidad.Name = "cbEspecialidad";
             this.cbEspecialidad.Size = new System.Drawing.Size(173, 25);

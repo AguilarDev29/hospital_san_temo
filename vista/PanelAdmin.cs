@@ -14,15 +14,12 @@ namespace Final_TallerdeProgramacion_Aguilar_Juarez.vista
 
         private void PanelAdmin_Load(object sender, EventArgs e)
         {
-            // TODO: esta línea de código carga datos en la tabla 'hospital_san_telmoDataSet9.vista_turnos_pendientes' Puede moverla o quitarla según sea necesario.
-            this.vista_turnos_pendientesTableAdapter1.Fill(this.hospital_san_telmoDataSet9.vista_turnos_pendientes);
-            // TODO: esta línea de código carga datos en la tabla 'hospital_san_telmoDataSet8.vista_medicos' Puede moverla o quitarla según sea necesario.
-            this.vista_medicosTableAdapter1.Fill(this.hospital_san_telmoDataSet8.vista_medicos);
-            // TODO: esta línea de código carga datos en la tabla 'hospital_san_telmoDataSet7.vista_pacientes' Puede moverla o quitarla según sea necesario.
-            this.vista_pacientesTableAdapter1.Fill(this.hospital_san_telmoDataSet7.vista_pacientes);
-
-            
-
+            // TODO: esta línea de código carga datos en la tabla 'hospital_san_telmoDataSet15.vista_medicos' Puede moverla o quitarla según sea necesario.
+            this.vista_medicosTableAdapter2.Fill(this.hospital_san_telmoDataSet15.vista_medicos);
+            // TODO: esta línea de código carga datos en la tabla 'hospital_san_telmoDataSet14.vista_pacientes' Puede moverla o quitarla según sea necesario.
+            this.vista_pacientesTableAdapter2.Fill(this.hospital_san_telmoDataSet14.vista_pacientes);
+            // TODO: esta línea de código carga datos en la tabla 'hospital_san_telmoDataSet13.vista_turnos_pendientes' Puede moverla o quitarla según sea necesario.
+            this.vista_turnos_pendientesTableAdapter2.Fill(this.hospital_san_telmoDataSet13.vista_turnos_pendientes);
         }
 
         private void btnSalir_Click(object sender, EventArgs e)

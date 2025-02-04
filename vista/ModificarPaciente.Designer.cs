@@ -86,10 +86,12 @@
             // 
             // cbObraSocial
             // 
+            this.cbObraSocial.BackColor = System.Drawing.Color.Ivory;
+            this.cbObraSocial.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbObraSocial.FormattingEnabled = true;
             this.cbObraSocial.Location = new System.Drawing.Point(426, 179);
             this.cbObraSocial.Name = "cbObraSocial";
-            this.cbObraSocial.Size = new System.Drawing.Size(151, 31);
+            this.cbObraSocial.Size = new System.Drawing.Size(151, 24);
             this.cbObraSocial.TabIndex = 11;
             // 
             // label9

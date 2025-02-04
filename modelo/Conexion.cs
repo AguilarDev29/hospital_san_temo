@@ -1,11 +1,14 @@
-﻿using System.Data;
+﻿using System.Configuration;
+using System.Data;
 using System.Data.SqlClient;
 
 namespace Final_TallerdeProgramacion_Aguilar_Juarez
 {
     internal class Conexion
     {
-        private const string URL = "Server=matias\\SQLEXPRESS;Database=hospital_san_telmo;User Id=root;Password=42664539;TrustServerCertificate=True;";
+        private static string server = "MATIAS\\SQLEXPRESS";
+        private static string URL = $"Server={server};Database=hospital_san_telmo;Trusted_Connection=True;TrustServerCertificate=True;";
+
 
         public static SqlConnection Conectar()
         {

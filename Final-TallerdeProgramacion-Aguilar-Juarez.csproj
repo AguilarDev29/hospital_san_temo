@@ -64,6 +64,7 @@
     <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
     </Reference>
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.IO.Compression" />
     <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
@@ -89,65 +90,20 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="hospital_san_telmoDataSet.Designer.cs">
+    <Compile Include="hospital_san_telmoDataSet13.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>hospital_san_telmoDataSet.xsd</DependentUpon>
+      <DependentUpon>hospital_san_telmoDataSet13.xsd</DependentUpon>
     </Compile>
-    <Compile Include="hospital_san_telmoDataSet1.Designer.cs">
+    <Compile Include="hospital_san_telmoDataSet14.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>hospital_san_telmoDataSet1.xsd</DependentUpon>
+      <DependentUpon>hospital_san_telmoDataSet14.xsd</DependentUpon>
     </Compile>
-    <Compile Include="hospital_san_telmoDataSet10.Designer.cs">
+    <Compile Include="hospital_san_telmoDataSet15.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>hospital_san_telmoDataSet10.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="hospital_san_telmoDataSet11.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>hospital_san_telmoDataSet11.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="hospital_san_telmoDataSet2.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>hospital_san_telmoDataSet2.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="hospital_san_telmoDataSet3.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>hospital_san_telmoDataSet3.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="hospital_san_telmoDataSet4.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>hospital_san_telmoDataSet4.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="hospital_san_telmoDataSet5.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>hospital_san_telmoDataSet5.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="hospital_san_telmoDataSet6.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>hospital_san_telmoDataSet6.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="hospital_san_telmoDataSet7.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>hospital_san_telmoDataSet7.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="hospital_san_telmoDataSet8.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>hospital_san_telmoDataSet8.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="hospital_san_telmoDataSet9.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>hospital_san_telmoDataSet9.xsd</DependentUpon>
+      <DependentUpon>hospital_san_telmoDataSet15.xsd</DependentUpon>
     </Compile>
     <Compile Include="modelo\Conexion.cs" />
     <Compile Include="modelo\Medico.cs" />
@@ -283,137 +239,38 @@
     <EmbeddedResource Include="vista\ReagendarTurno.resx">
       <DependentUpon>ReagendarTurno.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="hospital_san_telmoDataSet.xsc">
-      <DependentUpon>hospital_san_telmoDataSet.xsd</DependentUpon>
+    <None Include="hospital_san_telmoDataSet13.xsc">
+      <DependentUpon>hospital_san_telmoDataSet13.xsd</DependentUpon>
     </None>
-    <None Include="hospital_san_telmoDataSet.xsd">
+    <None Include="hospital_san_telmoDataSet13.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>hospital_san_telmoDataSet.Designer.cs</LastGenOutput>
+      <LastGenOutput>hospital_san_telmoDataSet13.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="hospital_san_telmoDataSet.xss">
-      <DependentUpon>hospital_san_telmoDataSet.xsd</DependentUpon>
+    <None Include="hospital_san_telmoDataSet13.xss">
+      <DependentUpon>hospital_san_telmoDataSet13.xsd</DependentUpon>
     </None>
-    <None Include="hospital_san_telmoDataSet1.xsc">
-      <DependentUpon>hospital_san_telmoDataSet1.xsd</DependentUpon>
+    <None Include="hospital_san_telmoDataSet14.xsc">
+      <DependentUpon>hospital_san_telmoDataSet14.xsd</DependentUpon>
     </None>
-    <None Include="hospital_san_telmoDataSet1.xsd">
+    <None Include="hospital_san_telmoDataSet14.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>hospital_san_telmoDataSet1.Designer.cs</LastGenOutput>
+      <LastGenOutput>hospital_san_telmoDataSet14.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="hospital_san_telmoDataSet1.xss">
-      <DependentUpon>hospital_san_telmoDataSet1.xsd</DependentUpon>
+    <None Include="hospital_san_telmoDataSet14.xss">
+      <DependentUpon>hospital_san_telmoDataSet14.xsd</DependentUpon>
     </None>
-    <None Include="hospital_san_telmoDataSet10.xsc">
-      <DependentUpon>hospital_san_telmoDataSet10.xsd</DependentUpon>
+    <None Include="hospital_san_telmoDataSet15.xsc">
+      <DependentUpon>hospital_san_telmoDataSet15.xsd</DependentUpon>
     </None>
-    <None Include="hospital_san_telmoDataSet10.xsd">
+    <None Include="hospital_san_telmoDataSet15.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>hospital_san_telmoDataSet10.Designer.cs</LastGenOutput>
+      <LastGenOutput>hospital_san_telmoDataSet15.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="hospital_san_telmoDataSet10.xss">
-      <DependentUpon>hospital_san_telmoDataSet10.xsd</DependentUpon>
-    </None>
-    <None Include="hospital_san_telmoDataSet11.xsc">
-      <DependentUpon>hospital_san_telmoDataSet11.xsd</DependentUpon>
-    </None>
-    <None Include="hospital_san_telmoDataSet11.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>hospital_san_telmoDataSet11.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="hospital_san_telmoDataSet11.xss">
-      <DependentUpon>hospital_san_telmoDataSet11.xsd</DependentUpon>
-    </None>
-    <None Include="hospital_san_telmoDataSet2.xsc">
-      <DependentUpon>hospital_san_telmoDataSet2.xsd</DependentUpon>
-    </None>
-    <None Include="hospital_san_telmoDataSet2.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>hospital_san_telmoDataSet2.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="hospital_san_telmoDataSet2.xss">
-      <DependentUpon>hospital_san_telmoDataSet2.xsd</DependentUpon>
-    </None>
-    <None Include="hospital_san_telmoDataSet3.xsc">
-      <DependentUpon>hospital_san_telmoDataSet3.xsd</DependentUpon>
-    </None>
-    <None Include="hospital_san_telmoDataSet3.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>hospital_san_telmoDataSet3.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="hospital_san_telmoDataSet3.xss">
-      <DependentUpon>hospital_san_telmoDataSet3.xsd</DependentUpon>
-    </None>
-    <None Include="hospital_san_telmoDataSet4.xsc">
-      <DependentUpon>hospital_san_telmoDataSet4.xsd</DependentUpon>
-    </None>
-    <None Include="hospital_san_telmoDataSet4.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>hospital_san_telmoDataSet4.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="hospital_san_telmoDataSet4.xss">
-      <DependentUpon>hospital_san_telmoDataSet4.xsd</DependentUpon>
-    </None>
-    <None Include="hospital_san_telmoDataSet5.xsc">
-      <DependentUpon>hospital_san_telmoDataSet5.xsd</DependentUpon>
-    </None>
-    <None Include="hospital_san_telmoDataSet5.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>hospital_san_telmoDataSet5.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="hospital_san_telmoDataSet5.xss">
-      <DependentUpon>hospital_san_telmoDataSet5.xsd</DependentUpon>
-    </None>
-    <None Include="hospital_san_telmoDataSet6.xsc">
-      <DependentUpon>hospital_san_telmoDataSet6.xsd</DependentUpon>
-    </None>
-    <None Include="hospital_san_telmoDataSet6.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>hospital_san_telmoDataSet6.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="hospital_san_telmoDataSet6.xss">
-      <DependentUpon>hospital_san_telmoDataSet6.xsd</DependentUpon>
-    </None>
-    <None Include="hospital_san_telmoDataSet7.xsc">
-      <DependentUpon>hospital_san_telmoDataSet7.xsd</DependentUpon>
-    </None>
-    <None Include="hospital_san_telmoDataSet7.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>hospital_san_telmoDataSet7.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="hospital_san_telmoDataSet7.xss">
-      <DependentUpon>hospital_san_telmoDataSet7.xsd</DependentUpon>
-    </None>
-    <None Include="hospital_san_telmoDataSet8.xsc">
-      <DependentUpon>hospital_san_telmoDataSet8.xsd</DependentUpon>
-    </None>
-    <None Include="hospital_san_telmoDataSet8.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>hospital_san_telmoDataSet8.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="hospital_san_telmoDataSet8.xss">
-      <DependentUpon>hospital_san_telmoDataSet8.xsd</DependentUpon>
-    </None>
-    <None Include="hospital_san_telmoDataSet9.xsc">
-      <DependentUpon>hospital_san_telmoDataSet9.xsd</DependentUpon>
-    </None>
-    <None Include="hospital_san_telmoDataSet9.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>hospital_san_telmoDataSet9.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="hospital_san_telmoDataSet9.xss">
-      <DependentUpon>hospital_san_telmoDataSet9.xsd</DependentUpon>
+    <None Include="hospital_san_telmoDataSet15.xss">
+      <DependentUpon>hospital_san_telmoDataSet15.xsd</DependentUpon>
     </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

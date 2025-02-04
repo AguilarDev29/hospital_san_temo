@@ -115,6 +115,7 @@ INSERT INTO horario (horario) VALUES ('19:30:00');
 INSERT INTO horario (horario) VALUES ('20:00:00');
 INSERT INTO horario (horario) VALUES ('20:30:00');
 
+
 /*INSERT INTO paciente (apellido, nombre, dni, sexo,fecha_nac, direccion, localidad, telefono,email, id_obra_social) VALUES 
   ('Pérez','Juan','12345678','Masculino','1992-04-15','Calle Falsa 123','Buenos Aires','5551234','prueba@mail.com',0),
   ('Gómez','María','87654321','Femenino','1985-07-08','Av. Siempreviva 742','Córdoba','5555678','prueba@mail.com',2),

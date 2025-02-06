@@ -325,7 +325,9 @@
             this.Controls.Add(this.gbdatos);
             this.Controls.Add(this.txtDni);
             this.Controls.Add(this.label3);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ModificarPaciente";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ModificarPaciente";
             this.Load += new System.EventHandler(this.ModificarPaciente_Load);
             this.gbdatos.ResumeLayout(false);

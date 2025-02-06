@@ -1,42 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos\\Final-TallerdeProgramacion-Aguilar-Juarez\\",
+  "WorkspaceRootPath": "C:\\Users\\Matias\\source\\repos\\hospital_san_temo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{374B4398-7D65-40B1-8575-8A28FD5007E5}|Final-TallerdeProgramacion-Aguilar-Juarez.csproj|c:\\users\\pc\\source\\repos\\final-tallerdeprogramacion-aguilar-juarez\\vista\\historiaclinica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{374B4398-7D65-40B1-8575-8A28FD5007E5}|Final-TallerdeProgramacion-Aguilar-Juarez.csproj|solutionrelative:vista\\historiaclinica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{374B4398-7D65-40B1-8575-8A28FD5007E5}|Final-TallerdeProgramacion-Aguilar-Juarez.csproj|C:\\Users\\PC\\source\\repos\\Final-TallerdeProgramacion-Aguilar-Juarez\\vista\\modificarpaciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{374B4398-7D65-40B1-8575-8A28FD5007E5}|Final-TallerdeProgramacion-Aguilar-Juarez.csproj|solutionrelative:vista\\modificarpaciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{374B4398-7D65-40B1-8575-8A28FD5007E5}|Final-TallerdeProgramacion-Aguilar-Juarez.csproj|C:\\Users\\PC\\source\\repos\\Final-TallerdeProgramacion-Aguilar-Juarez\\vista\\ingresomedico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{374B4398-7D65-40B1-8575-8A28FD5007E5}|Final-TallerdeProgramacion-Aguilar-Juarez.csproj|solutionrelative:vista\\ingresomedico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{374B4398-7D65-40B1-8575-8A28FD5007E5}|Final-TallerdeProgramacion-Aguilar-Juarez.csproj|C:\\Users\\PC\\source\\repos\\Final-TallerdeProgramacion-Aguilar-Juarez\\vista\\modificarmedico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{374B4398-7D65-40B1-8575-8A28FD5007E5}|Final-TallerdeProgramacion-Aguilar-Juarez.csproj|solutionrelative:vista\\modificarmedico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{374B4398-7D65-40B1-8575-8A28FD5007E5}|Final-TallerdeProgramacion-Aguilar-Juarez.csproj|C:\\Users\\PC\\source\\repos\\Final-TallerdeProgramacion-Aguilar-Juarez\\vista\\cancelarturno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{374B4398-7D65-40B1-8575-8A28FD5007E5}|Final-TallerdeProgramacion-Aguilar-Juarez.csproj|solutionrelative:vista\\cancelarturno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{374B4398-7D65-40B1-8575-8A28FD5007E5}|Final-TallerdeProgramacion-Aguilar-Juarez.csproj|C:\\Users\\PC\\source\\repos\\Final-TallerdeProgramacion-Aguilar-Juarez\\vista\\cancelarturno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{374B4398-7D65-40B1-8575-8A28FD5007E5}|Final-TallerdeProgramacion-Aguilar-Juarez.csproj|solutionrelative:vista\\cancelarturno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{374B4398-7D65-40B1-8575-8A28FD5007E5}|Final-TallerdeProgramacion-Aguilar-Juarez.csproj|C:\\Users\\PC\\source\\repos\\Final-TallerdeProgramacion-Aguilar-Juarez\\vista\\reagendarturno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{374B4398-7D65-40B1-8575-8A28FD5007E5}|Final-TallerdeProgramacion-Aguilar-Juarez.csproj|solutionrelative:vista\\reagendarturno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{374B4398-7D65-40B1-8575-8A28FD5007E5}|Final-TallerdeProgramacion-Aguilar-Juarez.csproj|C:\\Users\\PC\\source\\repos\\Final-TallerdeProgramacion-Aguilar-Juarez\\vista\\reagendarturno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{374B4398-7D65-40B1-8575-8A28FD5007E5}|Final-TallerdeProgramacion-Aguilar-Juarez.csproj|solutionrelative:vista\\reagendarturno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{374B4398-7D65-40B1-8575-8A28FD5007E5}|Final-TallerdeProgramacion-Aguilar-Juarez.csproj|C:\\Users\\PC\\source\\repos\\Final-TallerdeProgramacion-Aguilar-Juarez\\modelo\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{374B4398-7D65-40B1-8575-8A28FD5007E5}|Final-TallerdeProgramacion-Aguilar-Juarez.csproj|solutionrelative:modelo\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{374B4398-7D65-40B1-8575-8A28FD5007E5}|Final-TallerdeProgramacion-Aguilar-Juarez.csproj|c:\\users\\matias\\source\\repos\\hospital_san_temo\\vista\\paneladmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{374B4398-7D65-40B1-8575-8A28FD5007E5}|Final-TallerdeProgramacion-Aguilar-Juarez.csproj|solutionrelative:vista\\paneladmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,8 +14,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -59,105 +31,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HistoriaClinica.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Final-TallerdeProgramacion-Aguilar-Juarez\\vista\\HistoriaClinica.cs",
-              "RelativeDocumentMoniker": "vista\\HistoriaClinica.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\Final-TallerdeProgramacion-Aguilar-Juarez\\vista\\HistoriaClinica.cs [Dise\u00F1o]",
-              "RelativeToolTip": "vista\\HistoriaClinica.cs [Dise\u00F1o]",
+              "Title": "PanelAdmin.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Matias\\source\\repos\\hospital_san_temo\\vista\\PanelAdmin.Designer.cs",
+              "RelativeDocumentMoniker": "vista\\PanelAdmin.Designer.cs",
+              "ToolTip": "C:\\Users\\Matias\\source\\repos\\hospital_san_temo\\vista\\PanelAdmin.Designer.cs",
+              "RelativeToolTip": "vista\\PanelAdmin.Designer.cs",
+              "ViewState": "AgIAAEIBAAAAAAAAAAAswCgBAABkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T22:40:34.331Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IngresoMedico.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Final-TallerdeProgramacion-Aguilar-Juarez\\vista\\IngresoMedico.cs",
-              "RelativeDocumentMoniker": "vista\\IngresoMedico.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\Final-TallerdeProgramacion-Aguilar-Juarez\\vista\\IngresoMedico.cs [Dise\u00F1o]",
-              "RelativeToolTip": "vista\\IngresoMedico.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T22:39:15.904Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ModificarMedico.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Final-TallerdeProgramacion-Aguilar-Juarez\\vista\\ModificarMedico.cs",
-              "RelativeDocumentMoniker": "vista\\ModificarMedico.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\Final-TallerdeProgramacion-Aguilar-Juarez\\vista\\ModificarMedico.cs [Dise\u00F1o]",
-              "RelativeToolTip": "vista\\ModificarMedico.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T22:39:00.745Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ModificarPaciente.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Final-TallerdeProgramacion-Aguilar-Juarez\\vista\\ModificarPaciente.cs",
-              "RelativeDocumentMoniker": "vista\\ModificarPaciente.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\Final-TallerdeProgramacion-Aguilar-Juarez\\vista\\ModificarPaciente.cs [Dise\u00F1o]",
-              "RelativeToolTip": "vista\\ModificarPaciente.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T22:35:41.254Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CancelarTurno.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Final-TallerdeProgramacion-Aguilar-Juarez\\vista\\CancelarTurno.cs",
-              "RelativeDocumentMoniker": "vista\\CancelarTurno.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\Final-TallerdeProgramacion-Aguilar-Juarez\\vista\\CancelarTurno.cs",
-              "RelativeToolTip": "vista\\CancelarTurno.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBYAAABnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T22:32:23.126Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CancelarTurno.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Final-TallerdeProgramacion-Aguilar-Juarez\\vista\\CancelarTurno.cs",
-              "RelativeDocumentMoniker": "vista\\CancelarTurno.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\Final-TallerdeProgramacion-Aguilar-Juarez\\vista\\CancelarTurno.cs [Dise\u00F1o]",
-              "RelativeToolTip": "vista\\CancelarTurno.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T22:32:20.577Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ReagendarTurno.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Final-TallerdeProgramacion-Aguilar-Juarez\\vista\\ReagendarTurno.cs",
-              "RelativeDocumentMoniker": "vista\\ReagendarTurno.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\Final-TallerdeProgramacion-Aguilar-Juarez\\vista\\ReagendarTurno.cs",
-              "RelativeToolTip": "vista\\ReagendarTurno.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAwwDgAAABXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T22:31:38.485Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ReagendarTurno.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Final-TallerdeProgramacion-Aguilar-Juarez\\vista\\ReagendarTurno.cs",
-              "RelativeDocumentMoniker": "vista\\ReagendarTurno.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\Final-TallerdeProgramacion-Aguilar-Juarez\\vista\\ReagendarTurno.cs [Dise\u00F1o]",
-              "RelativeToolTip": "vista\\ReagendarTurno.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T22:31:36.273Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Conexion.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Final-TallerdeProgramacion-Aguilar-Juarez\\modelo\\Conexion.cs",
-              "RelativeDocumentMoniker": "modelo\\Conexion.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\Final-TallerdeProgramacion-Aguilar-Juarez\\modelo\\Conexion.cs",
-              "RelativeToolTip": "modelo\\Conexion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-02T14:28:42.189Z"
+              "WhenOpened": "2025-02-06T01:22:41.616Z",
+              "EditorCaption": ""
             }
           ]
         }

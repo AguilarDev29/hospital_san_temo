@@ -86,7 +86,9 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnConfirmar);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "CancelarTurno";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CancelarTurno";
             this.Load += new System.EventHandler(this.CancelarTurno_Load);
             this.ResumeLayout(false);

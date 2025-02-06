@@ -313,7 +313,9 @@
             this.Controls.Add(this.btnModificar);
             this.Controls.Add(this.btnGuardar);
             this.Controls.Add(this.groupBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "IngresoMedico";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CargarMedico";
             this.Load += new System.EventHandler(this.CargarMedico_Load);
             this.groupBox1.ResumeLayout(false);

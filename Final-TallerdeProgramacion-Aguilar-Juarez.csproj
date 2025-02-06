@@ -90,21 +90,6 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="hospital_san_telmoDataSet13.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>hospital_san_telmoDataSet13.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="hospital_san_telmoDataSet14.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>hospital_san_telmoDataSet14.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="hospital_san_telmoDataSet15.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>hospital_san_telmoDataSet15.xsd</DependentUpon>
-    </Compile>
     <Compile Include="modelo\Conexion.cs" />
     <Compile Include="modelo\Medico.cs" />
     <Compile Include="modelo\Paciente.cs" />
@@ -239,39 +224,6 @@
     <EmbeddedResource Include="vista\ReagendarTurno.resx">
       <DependentUpon>ReagendarTurno.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="hospital_san_telmoDataSet13.xsc">
-      <DependentUpon>hospital_san_telmoDataSet13.xsd</DependentUpon>
-    </None>
-    <None Include="hospital_san_telmoDataSet13.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>hospital_san_telmoDataSet13.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="hospital_san_telmoDataSet13.xss">
-      <DependentUpon>hospital_san_telmoDataSet13.xsd</DependentUpon>
-    </None>
-    <None Include="hospital_san_telmoDataSet14.xsc">
-      <DependentUpon>hospital_san_telmoDataSet14.xsd</DependentUpon>
-    </None>
-    <None Include="hospital_san_telmoDataSet14.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>hospital_san_telmoDataSet14.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="hospital_san_telmoDataSet14.xss">
-      <DependentUpon>hospital_san_telmoDataSet14.xsd</DependentUpon>
-    </None>
-    <None Include="hospital_san_telmoDataSet15.xsc">
-      <DependentUpon>hospital_san_telmoDataSet15.xsd</DependentUpon>
-    </None>
-    <None Include="hospital_san_telmoDataSet15.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>hospital_san_telmoDataSet15.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="hospital_san_telmoDataSet15.xss">
-      <DependentUpon>hospital_san_telmoDataSet15.xsd</DependentUpon>
-    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

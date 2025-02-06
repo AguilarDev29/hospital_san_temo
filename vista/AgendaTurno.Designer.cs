@@ -331,8 +331,10 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.Ingreso);
             this.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.Name = "AgendaTurno";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Hospital San Telmo";
             this.Load += new System.EventHandler(this.IngresoPaciente_Load);
             this.groupBox1.ResumeLayout(false);

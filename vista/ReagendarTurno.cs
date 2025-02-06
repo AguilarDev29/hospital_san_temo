@@ -24,7 +24,21 @@ namespace Final_TallerdeProgramacion_Aguilar_Juarez.vista
         }
         private void btnConfirmar_Click(object sender, EventArgs e)
         {
+
+            if(cbTurnos.Text == "")
+            {
+                MessageBox.Show("Seleccione un turno", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            if(cbHorario.Text == "")
+            {
+                MessageBox.Show("Seleccione un horario", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
             Turno turno = new Turno(IdTurno(idPaciente), pFecha.Value, cbHorario.Text);
+
             if (Reagendar(turno) > 0)
             {
                 MessageBox.Show("Turno reagendado", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);

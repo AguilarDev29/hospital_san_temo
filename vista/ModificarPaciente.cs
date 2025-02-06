@@ -39,11 +39,13 @@ namespace Final_TallerdeProgramacion_Aguilar_Juarez.vista
 
         private void btnBuscar_Click(object sender, EventArgs e)
         {
-            Paciente paciente = BuscarPaciente(txtDni.Text);
-            if (paciente == null)
+            if (txtDni.Text == "")
             {
-                MessageBox.Show("Paciente no encontrado", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Ingrese un DNI", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
             }
+            Paciente paciente = BuscarPaciente(txtDni.Text);
+            if (paciente == null) MessageBox.Show("Paciente no encontrado", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             else
             {
                 txtApellido.Text = paciente.Apellido;
@@ -66,24 +68,18 @@ namespace Final_TallerdeProgramacion_Aguilar_Juarez.vista
                 SqlCommand cmd = new SqlCommand(query, conn);
                 cmd.Parameters.AddWithValue("@obraSocial", obraSocial);
                 SqlDataReader reader = cmd.ExecuteReader();
-                if (reader.Read())
-                {
-                    return reader.GetInt32(0);
-                }
-                else
-                {
-                    return -1;
-                }
+                if (reader.Read()) return reader.GetInt32(0);
+                else return -1;
             }
         }
 
         private int Modificar(Paciente paciente)
         {
+            string query = "UPDATE paciente SET apellido = @apellido, nombre = @nombre, sexo = @sexo," +
+                " direccion = @direccion, localidad = @localidad, fecha_nac = @fechaNacimiento, telefono = @telefono," +
+                " email = @email, id_obra_social = @obraSocial WHERE dni = @dni;";
             using (SqlConnection conn = Conexion.Conectar())
             {
-                string query = "UPDATE paciente SET apellido = @apellido, nombre = @nombre, sexo = @sexo," +
-                    " direccion = @direccion, localidad = @localidad, fecha_nac = @fechaNacimiento, telefono = @telefono," +
-                    " email = @email, id_obra_social = @obraSocial WHERE dni = @dni;";
                 SqlCommand cmd = new SqlCommand(query, conn);
                 cmd.Parameters.AddWithValue("@apellido", paciente.Apellido);
                 cmd.Parameters.AddWithValue("@nombre", paciente.Nombre);
@@ -129,9 +125,9 @@ namespace Final_TallerdeProgramacion_Aguilar_Juarez.vista
 
         private void CargarObraSocial()
         {
+            string query = "SELECT nombre FROM obra_social;";
             using (SqlConnection conn = Conexion.Conectar())
             {
-                string query = "SELECT nombre FROM obra_social;";
                 SqlCommand cmd = new SqlCommand(query, conn);
                 SqlDataReader reader = cmd.ExecuteReader();
                 while (reader.Read())
@@ -149,14 +145,8 @@ namespace Final_TallerdeProgramacion_Aguilar_Juarez.vista
                 SqlCommand cmd = new SqlCommand(query, conn);
                 cmd.Parameters.AddWithValue("@id", id);
                 SqlDataReader reader = cmd.ExecuteReader();
-                if (reader.Read())
-                {
-                    return reader.GetString(0);
-                }
-                else
-                {
-                    return "";
-                }
+                if (reader.Read()) return reader.GetString(0);
+                else return "";
             }
         }
 

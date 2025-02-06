@@ -41,6 +41,12 @@ namespace Final_TallerdeProgramacion_Aguilar_Juarez
 
         private void btnBuscar_Click(object sender, EventArgs e)
         {
+            if(txtDni.Text == "")
+            {
+                MessageBox.Show("Ingrese un DNI", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
             BuscarPaciente(txtDni.Text);
             if (txtPaciente.Text == "")
             {

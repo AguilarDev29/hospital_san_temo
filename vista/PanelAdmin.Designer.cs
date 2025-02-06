@@ -37,36 +37,17 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.pacienteDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.medicoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.fechaDeTurnoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.horarioDeTurnoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.atendidoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.vistaturnospendientesBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.dataGridViewTurnos = new System.Windows.Forms.DataGridView();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.apellidoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nombreDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dNIDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.sexoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.fechaDeNacimientoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.direcciónDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.localidadDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.teléfonoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.emailDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.obraSocialDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.vistapacientesBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.dataGridViewPacientes = new System.Windows.Forms.DataGridView();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.dataGridView3 = new System.Windows.Forms.DataGridView();
-            this.apellidoDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nombreDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dNIDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.sexoDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.teléfonoDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.emailDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.especialidadDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.plusDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewMedicos = new System.Windows.Forms.DataGridView();
+            this.vistaturnospendientesBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
+           
+            this.vistapacientesBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
+            this.vistamedicosBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
+            this.vistaturnospendientesBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.vistapacientesBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.vistamedicosBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.vistaturnospendientesBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.vistapacientesBindingSource = new System.Windows.Forms.BindingSource(this.components);
@@ -74,34 +55,24 @@
             this.btnFinanzas = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
             this.btnCargarMedicos = new System.Windows.Forms.Button();
-            this.hospital_san_telmoDataSet13 = new Final_TallerdeProgramacion_Aguilar_Juarez.hospital_san_telmoDataSet13();
-            this.vistaturnospendientesBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
-            this.vista_turnos_pendientesTableAdapter2 = new Final_TallerdeProgramacion_Aguilar_Juarez.hospital_san_telmoDataSet13TableAdapters.vista_turnos_pendientesTableAdapter();
-            this.hospital_san_telmoDataSet14 = new Final_TallerdeProgramacion_Aguilar_Juarez.hospital_san_telmoDataSet14();
-            this.vistapacientesBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
-            this.vista_pacientesTableAdapter2 = new Final_TallerdeProgramacion_Aguilar_Juarez.hospital_san_telmoDataSet14TableAdapters.vista_pacientesTableAdapter();
-            this.hospital_san_telmoDataSet15 = new Final_TallerdeProgramacion_Aguilar_Juarez.hospital_san_telmoDataSet15();
-            this.vistamedicosBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
-            this.vista_medicosTableAdapter2 = new Final_TallerdeProgramacion_Aguilar_Juarez.hospital_san_telmoDataSet15TableAdapters.vista_medicosTableAdapter();
+            this.hospitalsantelmoDataSet13BindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.vistaturnospendientesBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewTurnos)).BeginInit();
             this.tabPage2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.vistapacientesBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewPacientes)).BeginInit();
             this.tabPage3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewMedicos)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.vistaturnospendientesBindingSource2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.vistapacientesBindingSource2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.vistamedicosBindingSource2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.vistaturnospendientesBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.vistapacientesBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.vistamedicosBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.vistaturnospendientesBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.vistapacientesBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.vistamedicosBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hospital_san_telmoDataSet13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.vistaturnospendientesBindingSource2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hospital_san_telmoDataSet14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.vistapacientesBindingSource2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hospital_san_telmoDataSet15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.vistamedicosBindingSource2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hospitalsantelmoDataSet13BindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -117,7 +88,7 @@
             // 
             // tabPage1
             // 
-            this.tabPage1.Controls.Add(this.dataGridView1);
+            this.tabPage1.Controls.Add(this.dataGridViewTurnos);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
@@ -126,68 +97,21 @@
             this.tabPage1.Text = "Turnos";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
-            // dataGridView1
+            // dataGridViewTurnos
             // 
-            this.dataGridView1.AutoGenerateColumns = false;
-            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.LawnGreen;
-            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.pacienteDataGridViewTextBoxColumn,
-            this.medicoDataGridViewTextBoxColumn,
-            this.fechaDeTurnoDataGridViewTextBoxColumn,
-            this.horarioDeTurnoDataGridViewTextBoxColumn,
-            this.atendidoDataGridViewTextBoxColumn});
-            this.dataGridView1.DataSource = this.vistaturnospendientesBindingSource2;
-            this.dataGridView1.GridColor = System.Drawing.Color.Black;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 0);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(622, 400);
-            this.dataGridView1.TabIndex = 0;
-            // 
-            // pacienteDataGridViewTextBoxColumn
-            // 
-            this.pacienteDataGridViewTextBoxColumn.DataPropertyName = "Paciente";
-            this.pacienteDataGridViewTextBoxColumn.HeaderText = "Paciente";
-            this.pacienteDataGridViewTextBoxColumn.Name = "pacienteDataGridViewTextBoxColumn";
-            this.pacienteDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // medicoDataGridViewTextBoxColumn
-            // 
-            this.medicoDataGridViewTextBoxColumn.DataPropertyName = "Medico";
-            this.medicoDataGridViewTextBoxColumn.HeaderText = "Medico";
-            this.medicoDataGridViewTextBoxColumn.Name = "medicoDataGridViewTextBoxColumn";
-            this.medicoDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // fechaDeTurnoDataGridViewTextBoxColumn
-            // 
-            this.fechaDeTurnoDataGridViewTextBoxColumn.DataPropertyName = "Fecha de Turno";
-            this.fechaDeTurnoDataGridViewTextBoxColumn.HeaderText = "Fecha de Turno";
-            this.fechaDeTurnoDataGridViewTextBoxColumn.Name = "fechaDeTurnoDataGridViewTextBoxColumn";
-            // 
-            // horarioDeTurnoDataGridViewTextBoxColumn
-            // 
-            this.horarioDeTurnoDataGridViewTextBoxColumn.DataPropertyName = "Horario de Turno";
-            this.horarioDeTurnoDataGridViewTextBoxColumn.HeaderText = "Horario de Turno";
-            this.horarioDeTurnoDataGridViewTextBoxColumn.Name = "horarioDeTurnoDataGridViewTextBoxColumn";
-            // 
-            // atendidoDataGridViewTextBoxColumn
-            // 
-            this.atendidoDataGridViewTextBoxColumn.DataPropertyName = "Atendido";
-            this.atendidoDataGridViewTextBoxColumn.HeaderText = "Atendido";
-            this.atendidoDataGridViewTextBoxColumn.Name = "atendidoDataGridViewTextBoxColumn";
-            // 
-            // vistaturnospendientesBindingSource1
-            // 
-            this.vistaturnospendientesBindingSource1.DataMember = "vista_turnos_pendientes";
-            // 
-            // hospital_san_telmoDataSet9
-            // 
+            this.dataGridViewTurnos.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridViewTurnos.BackgroundColor = System.Drawing.Color.LawnGreen;
+            this.dataGridViewTurnos.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.dataGridViewTurnos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewTurnos.GridColor = System.Drawing.Color.Black;
+            this.dataGridViewTurnos.Location = new System.Drawing.Point(0, 0);
+            this.dataGridViewTurnos.Name = "dataGridViewTurnos";
+            this.dataGridViewTurnos.Size = new System.Drawing.Size(622, 400);
+            this.dataGridViewTurnos.TabIndex = 0;
             // 
             // tabPage2
             // 
-            this.tabPage2.Controls.Add(this.dataGridView2);
+            this.tabPage2.Controls.Add(this.dataGridViewPacientes);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
@@ -196,12 +120,11 @@
             this.tabPage2.Text = "Pacientes";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // dataGridView2
+            // dataGridViewPacientes
             // 
-            this.dataGridView2.AutoGenerateColumns = false;
-            this.dataGridView2.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridView2.BackgroundColor = System.Drawing.Color.LawnGreen;
-            this.dataGridView2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.dataGridViewPacientes.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridViewPacientes.BackgroundColor = System.Drawing.Color.LawnGreen;
+            this.dataGridViewPacientes.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
             dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -209,20 +132,8 @@
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.apellidoDataGridViewTextBoxColumn,
-            this.nombreDataGridViewTextBoxColumn,
-            this.dNIDataGridViewTextBoxColumn,
-            this.sexoDataGridViewTextBoxColumn,
-            this.fechaDeNacimientoDataGridViewTextBoxColumn,
-            this.direcciónDataGridViewTextBoxColumn,
-            this.localidadDataGridViewTextBoxColumn,
-            this.teléfonoDataGridViewTextBoxColumn,
-            this.emailDataGridViewTextBoxColumn,
-            this.obraSocialDataGridViewTextBoxColumn});
-            this.dataGridView2.DataSource = this.vistapacientesBindingSource2;
+            this.dataGridViewPacientes.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.dataGridViewPacientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -230,10 +141,10 @@
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView2.DefaultCellStyle = dataGridViewCellStyle2;
-            this.dataGridView2.GridColor = System.Drawing.Color.Black;
-            this.dataGridView2.Location = new System.Drawing.Point(0, 0);
-            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridViewPacientes.DefaultCellStyle = dataGridViewCellStyle2;
+            this.dataGridViewPacientes.GridColor = System.Drawing.Color.Black;
+            this.dataGridViewPacientes.Location = new System.Drawing.Point(0, 0);
+            this.dataGridViewPacientes.Name = "dataGridViewPacientes";
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -241,80 +152,13 @@
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView2.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
-            this.dataGridView2.Size = new System.Drawing.Size(622, 400);
-            this.dataGridView2.TabIndex = 0;
-            // 
-            // apellidoDataGridViewTextBoxColumn
-            // 
-            this.apellidoDataGridViewTextBoxColumn.DataPropertyName = "Apellido";
-            this.apellidoDataGridViewTextBoxColumn.HeaderText = "Apellido";
-            this.apellidoDataGridViewTextBoxColumn.Name = "apellidoDataGridViewTextBoxColumn";
-            // 
-            // nombreDataGridViewTextBoxColumn
-            // 
-            this.nombreDataGridViewTextBoxColumn.DataPropertyName = "Nombre";
-            this.nombreDataGridViewTextBoxColumn.HeaderText = "Nombre";
-            this.nombreDataGridViewTextBoxColumn.Name = "nombreDataGridViewTextBoxColumn";
-            // 
-            // dNIDataGridViewTextBoxColumn
-            // 
-            this.dNIDataGridViewTextBoxColumn.DataPropertyName = "DNI";
-            this.dNIDataGridViewTextBoxColumn.HeaderText = "DNI";
-            this.dNIDataGridViewTextBoxColumn.Name = "dNIDataGridViewTextBoxColumn";
-            // 
-            // sexoDataGridViewTextBoxColumn
-            // 
-            this.sexoDataGridViewTextBoxColumn.DataPropertyName = "Sexo";
-            this.sexoDataGridViewTextBoxColumn.HeaderText = "Sexo";
-            this.sexoDataGridViewTextBoxColumn.Name = "sexoDataGridViewTextBoxColumn";
-            // 
-            // fechaDeNacimientoDataGridViewTextBoxColumn
-            // 
-            this.fechaDeNacimientoDataGridViewTextBoxColumn.DataPropertyName = "Fecha de nacimiento";
-            this.fechaDeNacimientoDataGridViewTextBoxColumn.HeaderText = "Fecha de nacimiento";
-            this.fechaDeNacimientoDataGridViewTextBoxColumn.Name = "fechaDeNacimientoDataGridViewTextBoxColumn";
-            // 
-            // direcciónDataGridViewTextBoxColumn
-            // 
-            this.direcciónDataGridViewTextBoxColumn.DataPropertyName = "Dirección";
-            this.direcciónDataGridViewTextBoxColumn.HeaderText = "Dirección";
-            this.direcciónDataGridViewTextBoxColumn.Name = "direcciónDataGridViewTextBoxColumn";
-            // 
-            // localidadDataGridViewTextBoxColumn
-            // 
-            this.localidadDataGridViewTextBoxColumn.DataPropertyName = "Localidad";
-            this.localidadDataGridViewTextBoxColumn.HeaderText = "Localidad";
-            this.localidadDataGridViewTextBoxColumn.Name = "localidadDataGridViewTextBoxColumn";
-            // 
-            // teléfonoDataGridViewTextBoxColumn
-            // 
-            this.teléfonoDataGridViewTextBoxColumn.DataPropertyName = "Teléfono";
-            this.teléfonoDataGridViewTextBoxColumn.HeaderText = "Teléfono";
-            this.teléfonoDataGridViewTextBoxColumn.Name = "teléfonoDataGridViewTextBoxColumn";
-            // 
-            // emailDataGridViewTextBoxColumn
-            // 
-            this.emailDataGridViewTextBoxColumn.DataPropertyName = "Email";
-            this.emailDataGridViewTextBoxColumn.HeaderText = "Email";
-            this.emailDataGridViewTextBoxColumn.Name = "emailDataGridViewTextBoxColumn";
-            // 
-            // obraSocialDataGridViewTextBoxColumn
-            // 
-            this.obraSocialDataGridViewTextBoxColumn.DataPropertyName = "Obra Social";
-            this.obraSocialDataGridViewTextBoxColumn.HeaderText = "Obra Social";
-            this.obraSocialDataGridViewTextBoxColumn.Name = "obraSocialDataGridViewTextBoxColumn";
-            // 
-            // vistapacientesBindingSource1
-            // 
-            this.vistapacientesBindingSource1.DataMember = "vista_pacientes";
-            // 
-            // hospital_san_telmoDataSet7
-            // 
+            this.dataGridViewPacientes.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            this.dataGridViewPacientes.Size = new System.Drawing.Size(622, 400);
+            this.dataGridViewPacientes.TabIndex = 0;
             // 
             // tabPage3
             // 
-            this.tabPage3.Controls.Add(this.dataGridView3);
+            this.tabPage3.Controls.Add(this.dataGridViewMedicos);
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
@@ -323,11 +167,10 @@
             this.tabPage3.Text = "Medicos";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
-            // dataGridView3
+            // dataGridViewMedicos
             // 
-            this.dataGridView3.AutoGenerateColumns = false;
-            this.dataGridView3.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridView3.BackgroundColor = System.Drawing.Color.LawnGreen;
+            this.dataGridViewMedicos.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridViewMedicos.BackgroundColor = System.Drawing.Color.LawnGreen;
             dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
             dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -335,18 +178,8 @@
             dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView3.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
-            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.apellidoDataGridViewTextBoxColumn1,
-            this.nombreDataGridViewTextBoxColumn1,
-            this.dNIDataGridViewTextBoxColumn1,
-            this.sexoDataGridViewTextBoxColumn1,
-            this.teléfonoDataGridViewTextBoxColumn1,
-            this.emailDataGridViewTextBoxColumn1,
-            this.especialidadDataGridViewTextBoxColumn,
-            this.plusDataGridViewTextBoxColumn});
-            this.dataGridView3.DataSource = this.vistamedicosBindingSource2;
+            this.dataGridViewMedicos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            this.dataGridViewMedicos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Window;
             dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -354,10 +187,10 @@
             dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView3.DefaultCellStyle = dataGridViewCellStyle5;
-            this.dataGridView3.GridColor = System.Drawing.Color.Black;
-            this.dataGridView3.Location = new System.Drawing.Point(0, 0);
-            this.dataGridView3.Name = "dataGridView3";
+            this.dataGridViewMedicos.DefaultCellStyle = dataGridViewCellStyle5;
+            this.dataGridViewMedicos.GridColor = System.Drawing.Color.Black;
+            this.dataGridViewMedicos.Location = new System.Drawing.Point(0, 0);
+            this.dataGridViewMedicos.Name = "dataGridViewMedicos";
             dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
             dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -365,86 +198,42 @@
             dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView3.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
-            this.dataGridView3.Size = new System.Drawing.Size(622, 400);
-            this.dataGridView3.TabIndex = 0;
+            this.dataGridViewMedicos.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            this.dataGridViewMedicos.Size = new System.Drawing.Size(622, 400);
+            this.dataGridViewMedicos.TabIndex = 0;
             // 
-            // apellidoDataGridViewTextBoxColumn1
+            // vistaturnospendientesBindingSource2
             // 
-            this.apellidoDataGridViewTextBoxColumn1.DataPropertyName = "Apellido";
-            this.apellidoDataGridViewTextBoxColumn1.HeaderText = "Apellido";
-            this.apellidoDataGridViewTextBoxColumn1.Name = "apellidoDataGridViewTextBoxColumn1";
+            this.vistaturnospendientesBindingSource2.DataMember = "vista_turnos_pendientes";
             // 
-            // nombreDataGridViewTextBoxColumn1
+            // vistapacientesBindingSource2
             // 
-            this.nombreDataGridViewTextBoxColumn1.DataPropertyName = "Nombre";
-            this.nombreDataGridViewTextBoxColumn1.HeaderText = "Nombre";
-            this.nombreDataGridViewTextBoxColumn1.Name = "nombreDataGridViewTextBoxColumn1";
+            this.vistapacientesBindingSource2.DataMember = "vista_pacientes";
+            this.vistamedicosBindingSource2.DataMember = "vista_medicos";
             // 
-            // dNIDataGridViewTextBoxColumn1
+            // vistaturnospendientesBindingSource1
             // 
-            this.dNIDataGridViewTextBoxColumn1.DataPropertyName = "DNI";
-            this.dNIDataGridViewTextBoxColumn1.HeaderText = "DNI";
-            this.dNIDataGridViewTextBoxColumn1.Name = "dNIDataGridViewTextBoxColumn1";
+            this.vistaturnospendientesBindingSource1.DataMember = "vista_turnos_pendientes";
             // 
-            // sexoDataGridViewTextBoxColumn1
+            // vistapacientesBindingSource1
             // 
-            this.sexoDataGridViewTextBoxColumn1.DataPropertyName = "Sexo";
-            this.sexoDataGridViewTextBoxColumn1.HeaderText = "Sexo";
-            this.sexoDataGridViewTextBoxColumn1.Name = "sexoDataGridViewTextBoxColumn1";
-            // 
-            // teléfonoDataGridViewTextBoxColumn1
-            // 
-            this.teléfonoDataGridViewTextBoxColumn1.DataPropertyName = "Teléfono";
-            this.teléfonoDataGridViewTextBoxColumn1.HeaderText = "Teléfono";
-            this.teléfonoDataGridViewTextBoxColumn1.Name = "teléfonoDataGridViewTextBoxColumn1";
-            // 
-            // emailDataGridViewTextBoxColumn1
-            // 
-            this.emailDataGridViewTextBoxColumn1.DataPropertyName = "Email";
-            this.emailDataGridViewTextBoxColumn1.HeaderText = "Email";
-            this.emailDataGridViewTextBoxColumn1.Name = "emailDataGridViewTextBoxColumn1";
-            // 
-            // especialidadDataGridViewTextBoxColumn
-            // 
-            this.especialidadDataGridViewTextBoxColumn.DataPropertyName = "Especialidad";
-            this.especialidadDataGridViewTextBoxColumn.HeaderText = "Especialidad";
-            this.especialidadDataGridViewTextBoxColumn.Name = "especialidadDataGridViewTextBoxColumn";
-            // 
-            // plusDataGridViewTextBoxColumn
-            // 
-            this.plusDataGridViewTextBoxColumn.DataPropertyName = "Plus";
-            this.plusDataGridViewTextBoxColumn.HeaderText = "Plus";
-            this.plusDataGridViewTextBoxColumn.Name = "plusDataGridViewTextBoxColumn";
-            this.plusDataGridViewTextBoxColumn.ReadOnly = true;
+            this.vistapacientesBindingSource1.DataMember = "vista_pacientes";
             // 
             // vistamedicosBindingSource1
             // 
             this.vistamedicosBindingSource1.DataMember = "vista_medicos";
             // 
-            // hospital_san_telmoDataSet8
-            // 
-            // 
             // vistaturnospendientesBindingSource
             // 
             this.vistaturnospendientesBindingSource.DataMember = "vista_turnos_pendientes";
-            // 
-            // hospital_san_telmoDataSet4
-            // 
             // 
             // vistapacientesBindingSource
             // 
             this.vistapacientesBindingSource.DataMember = "vista_pacientes";
             // 
-            // hospital_san_telmoDataSet5
-            // 
-            // 
             // vistamedicosBindingSource
             // 
             this.vistamedicosBindingSource.DataMember = "vista_medicos";
-            // 
-            // hospital_san_telmoDataSet6
-            // 
             // 
             // btnFinanzas
             // 
@@ -478,48 +267,8 @@
             this.btnCargarMedicos.Text = "Cargar Medicos";
             this.btnCargarMedicos.UseVisualStyleBackColor = true;
             this.btnCargarMedicos.Click += new System.EventHandler(this.btnCargarMedicos_Click);
-            // 
-            // hospital_san_telmoDataSet13
-            // 
-            this.hospital_san_telmoDataSet13.DataSetName = "hospital_san_telmoDataSet13";
-            this.hospital_san_telmoDataSet13.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // vistaturnospendientesBindingSource2
-            // 
-            this.vistaturnospendientesBindingSource2.DataMember = "vista_turnos_pendientes";
-            this.vistaturnospendientesBindingSource2.DataSource = this.hospital_san_telmoDataSet13;
-            // 
-            // vista_turnos_pendientesTableAdapter2
-            // 
-            this.vista_turnos_pendientesTableAdapter2.ClearBeforeFill = true;
-            // 
-            // hospital_san_telmoDataSet14
-            // 
-            this.hospital_san_telmoDataSet14.DataSetName = "hospital_san_telmoDataSet14";
-            this.hospital_san_telmoDataSet14.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // vistapacientesBindingSource2
-            // 
-            this.vistapacientesBindingSource2.DataMember = "vista_pacientes";
-            this.vistapacientesBindingSource2.DataSource = this.hospital_san_telmoDataSet14;
-            // 
-            // vista_pacientesTableAdapter2
-            // 
-            this.vista_pacientesTableAdapter2.ClearBeforeFill = true;
-            // 
-            // hospital_san_telmoDataSet15
-            // 
-            this.hospital_san_telmoDataSet15.DataSetName = "hospital_san_telmoDataSet15";
-            this.hospital_san_telmoDataSet15.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // vistamedicosBindingSource2
-            // 
-            this.vistamedicosBindingSource2.DataMember = "vista_medicos";
-            this.vistamedicosBindingSource2.DataSource = this.hospital_san_telmoDataSet15;
-            // 
-            // vista_medicosTableAdapter2
-            // 
-            this.vista_medicosTableAdapter2.ClearBeforeFill = true;
+
+            this.hospitalsantelmoDataSet13BindingSource.Position = 0;
             // 
             // PanelAdmin
             // 
@@ -531,28 +280,28 @@
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnFinanzas);
             this.Controls.Add(this.tabControl1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "PanelAdmin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PanelAdmin";
             this.Load += new System.EventHandler(this.PanelAdmin_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.vistaturnospendientesBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewTurnos)).EndInit();
             this.tabPage2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.vistapacientesBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewPacientes)).EndInit();
             this.tabPage3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewMedicos)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.vistaturnospendientesBindingSource2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.vistapacientesBindingSource2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.vistamedicosBindingSource2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.vistaturnospendientesBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.vistapacientesBindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.vistamedicosBindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.vistaturnospendientesBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.vistapacientesBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.vistamedicosBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hospital_san_telmoDataSet13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.vistaturnospendientesBindingSource2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hospital_san_telmoDataSet14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.vistapacientesBindingSource2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hospital_san_telmoDataSet15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.vistamedicosBindingSource2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hospitalsantelmoDataSet13BindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -569,43 +318,15 @@
         private System.Windows.Forms.BindingSource vistaturnospendientesBindingSource;
         private System.Windows.Forms.BindingSource vistapacientesBindingSource;
         private System.Windows.Forms.BindingSource vistamedicosBindingSource;
-        private System.Windows.Forms.DataGridView dataGridView2;
+        private System.Windows.Forms.DataGridView dataGridViewPacientes;
         private System.Windows.Forms.BindingSource vistapacientesBindingSource1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn apellidoDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nombreDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dNIDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn sexoDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn fechaDeNacimientoDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn direcciónDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn localidadDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn teléfonoDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn emailDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn obraSocialDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridView dataGridView3;
+        private System.Windows.Forms.DataGridView dataGridViewMedicos;
         private System.Windows.Forms.BindingSource vistamedicosBindingSource1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn apellidoDataGridViewTextBoxColumn1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nombreDataGridViewTextBoxColumn1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dNIDataGridViewTextBoxColumn1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn sexoDataGridViewTextBoxColumn1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn teléfonoDataGridViewTextBoxColumn1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn emailDataGridViewTextBoxColumn1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn especialidadDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn plusDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dataGridViewTurnos;
         private System.Windows.Forms.BindingSource vistaturnospendientesBindingSource1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn pacienteDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn medicoDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn fechaDeTurnoDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn horarioDeTurnoDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn atendidoDataGridViewTextBoxColumn;
-        private hospital_san_telmoDataSet13 hospital_san_telmoDataSet13;
         private System.Windows.Forms.BindingSource vistaturnospendientesBindingSource2;
-        private hospital_san_telmoDataSet13TableAdapters.vista_turnos_pendientesTableAdapter vista_turnos_pendientesTableAdapter2;
-        private hospital_san_telmoDataSet14 hospital_san_telmoDataSet14;
         private System.Windows.Forms.BindingSource vistapacientesBindingSource2;
-        private hospital_san_telmoDataSet14TableAdapters.vista_pacientesTableAdapter vista_pacientesTableAdapter2;
-        private hospital_san_telmoDataSet15 hospital_san_telmoDataSet15;
         private System.Windows.Forms.BindingSource vistamedicosBindingSource2;
-        private hospital_san_telmoDataSet15TableAdapters.vista_medicosTableAdapter vista_medicosTableAdapter2;
+        private System.Windows.Forms.BindingSource hospitalsantelmoDataSet13BindingSource;
     }
 }

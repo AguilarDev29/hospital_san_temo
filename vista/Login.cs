@@ -21,6 +21,12 @@ namespace Final_TallerdeProgramacion_Aguilar_Juarez
 
         private void btningresar_Click(object sender, EventArgs e)
         {
+            if(txtusuario.Text == "" || txtContrasenia.Text == "")
+            {
+                MessageBox.Show("Los campos no pueden estar vacios", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
             if(!ValidarUsuario(txtusuario.Text, txtContrasenia.Text, this))
             {
                 intentos++;

@@ -13,6 +13,11 @@ namespace Final_TallerdeProgramacion_Aguilar_Juarez.vista
 
         private void btnConfirmar_Click(object sender, EventArgs e)
         {
+            if(txtDni.Text == "")
+            { MessageBox.Show("Ingrese un DNI", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+              return; 
+            }
+
             if(DarDeBaja(txtDni.Text) > 0) { 
                 MessageBox.Show("Medico dado de baja", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 Hide();

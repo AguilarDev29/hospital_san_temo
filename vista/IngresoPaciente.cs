@@ -42,14 +42,16 @@ namespace Final_TallerdeProgramacion_Aguilar_Juarez.vista
             Paciente paciente = new Paciente(txtApellido.Text, txtNombre.Text, txtDni.Text,
                 cbSexo.Text, txtDireccion.Text, txtLocalidad.Text, pFechaNac.Value, txtTelefono.Text,
                 txtEmail.Text, IdObraSocial(cbObraSocial.Text));
-            if (IngresarPaciente(paciente) > 0)
+
+            if(ValidarDni(paciente.Dni) > 0)
             {
-                MessageBox.Show("Paciente ingresado con exito", "Exito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("El DNI ingresado ya existe", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
             }
-            else
-            { 
-                MessageBox.Show("Error al ingresar paciente", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+
+            if (IngresarPaciente(paciente) > 0) MessageBox.Show("Paciente ingresado con exito",
+                                                "Exito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
             
         }
 
@@ -62,9 +64,10 @@ namespace Final_TallerdeProgramacion_Aguilar_Juarez.vista
 
         private void CargarObraSocial()
         {
+            string query = "SELECT id, nombre FROM obra_social";
+
             using (SqlConnection conn = Conexion.Conectar())
             {
-                string query = "SELECT id, nombre FROM obra_social";
                 SqlCommand cmd = new SqlCommand(query, conn);
                 SqlDataReader reader = cmd.ExecuteReader();
                 while (reader.Read())
@@ -82,14 +85,8 @@ namespace Final_TallerdeProgramacion_Aguilar_Juarez.vista
                 SqlCommand cmd = new SqlCommand(query, conn);
                 cmd.Parameters.AddWithValue("@obraSocial", obraSocial);
                 SqlDataReader reader = cmd.ExecuteReader();
-                if (reader.Read())
-                {
-                    return reader.GetInt32(0);
-                }
-                else
-                {
-                    return -1;
-                }
+                if (reader.Read()) return reader.GetInt32(0);
+                else return -1;
             }
         }
         private int IngresarPaciente(Paciente paciente)
@@ -99,23 +96,42 @@ namespace Final_TallerdeProgramacion_Aguilar_Juarez.vista
                 "VALUES (@apellido, @nombre, @dni, @sexo, @direccion," +
                 " @localidad, @fechaNac," +
                 " @telefono, @email, @obraSocial)";
+            try
+            {
+                using (SqlConnection conn = Conexion.Conectar())
+                {
+                    SqlCommand cmd = new SqlCommand(query, conn);
+                    cmd.Parameters.AddWithValue("@apellido", paciente.Apellido);
+                    cmd.Parameters.AddWithValue("@nombre", paciente.Nombre);
+                    cmd.Parameters.AddWithValue("@dni", paciente.Dni);
+                    cmd.Parameters.AddWithValue("@sexo", paciente.Sexo);
+                    cmd.Parameters.AddWithValue("@direccion", paciente.Direccion);
+                    cmd.Parameters.AddWithValue("@localidad", paciente.Localidad);
+                    cmd.Parameters.AddWithValue("@fechaNac", paciente.FechaNacimiento);
+                    cmd.Parameters.AddWithValue("@telefono", paciente.Telefono);
+                    cmd.Parameters.AddWithValue("@email", paciente.Email);
+                    cmd.Parameters.AddWithValue("@obraSocial", paciente.IdObraSocial);
+                    return cmd.ExecuteNonQuery();
+                }
+            }
+            catch(SqlException ex)
+            {
+                MessageBox.Show("Los campos no pueden estar vacíos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return -1;
+            }
+            
+        }
+
+        private int ValidarDni(string dni)
+        {
+            string query = "SELECT COUNT(*) FROM paciente WHERE dni = @dni;";
+
             using (SqlConnection conn = Conexion.Conectar())
             {
                 SqlCommand cmd = new SqlCommand(query, conn);
-                cmd.Parameters.AddWithValue("@apellido", paciente.Apellido);
-                cmd.Parameters.AddWithValue("@nombre", paciente.Nombre);
-                cmd.Parameters.AddWithValue("@dni", paciente.Dni);
-                cmd.Parameters.AddWithValue("@sexo", paciente.Sexo);
-                cmd.Parameters.AddWithValue("@direccion", paciente.Direccion);
-                cmd.Parameters.AddWithValue("@localidad", paciente.Localidad);
-                cmd.Parameters.AddWithValue("@fechaNac", paciente.FechaNacimiento);
-                cmd.Parameters.AddWithValue("@telefono", paciente.Telefono);
-                cmd.Parameters.AddWithValue("@email", paciente.Email);
-                cmd.Parameters.AddWithValue("@obraSocial", paciente.IdObraSocial);
-                return cmd.ExecuteNonQuery();
+                cmd.Parameters.AddWithValue("@dni", dni);
+                return (int)cmd.ExecuteScalar();
             }
         }
-
-        
     }
 }

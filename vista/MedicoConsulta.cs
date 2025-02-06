@@ -55,6 +55,24 @@ namespace Final_TallerdeProgramacion_Aguilar_Juarez.vista
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
+            if (txtDni.Text == "")
+            {
+                MessageBox.Show("Debe ingresar un dni", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            if(txtPaciente.Text == "")
+            {
+                MessageBox.Show("Paciente no encontrado", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            if(txtDiagnostico.Text == "")
+            {
+                MessageBox.Show("Debe ingresar un diagnostico", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
             if(AgregarAHistoriaClinica() > 0) MessageBox.Show("Historia Clinica Agregada", "Exito", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 

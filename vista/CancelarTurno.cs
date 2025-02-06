@@ -51,6 +51,12 @@ namespace Final_TallerdeProgramacion_Aguilar_Juarez.vista
 
         private void btnConfirmar_Click(object sender, EventArgs e)
         {
+            if(cbTurnos.Text == "")
+            {
+                MessageBox.Show("Seleccione un turno", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
             if(Cancelar(idPaciente) > 0)
             {
                 MessageBox.Show("Turno cancelado", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);

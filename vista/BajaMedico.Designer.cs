@@ -85,7 +85,9 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnConfirmar);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "BajaMedico";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BajaMedico";
             this.ResumeLayout(false);
             this.PerformLayout();

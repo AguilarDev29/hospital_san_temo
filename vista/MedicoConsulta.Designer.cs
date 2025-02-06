@@ -157,7 +157,9 @@
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.txtDiagnostico);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "MedicoConsulta";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MedicoConsulta";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

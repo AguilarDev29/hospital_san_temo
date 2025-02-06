@@ -70,7 +70,9 @@
             this.ClientSize = new System.Drawing.Size(436, 376);
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.dataGridViewHistoriaClinica);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "HistoriaClinica";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "HistoriaClinica";
             this.Load += new System.EventHandler(this.HistoriaClinica_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewHistoriaClinica)).EndInit();

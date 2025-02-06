@@ -38,9 +38,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewFinanzas)).BeginInit();
             this.SuspendLayout();
             // 
-            // hospital_san_telmoDataSet11
-            // 
-            // 
             // btnExportarExcel
             // 
             this.btnExportarExcel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -125,7 +122,9 @@
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.btnExportarExcel);
             this.Controls.Add(this.dataGridViewFinanzas);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Finanzas";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Finanzas";
             this.Load += new System.EventHandler(this.Finanzas_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewFinanzas)).EndInit();

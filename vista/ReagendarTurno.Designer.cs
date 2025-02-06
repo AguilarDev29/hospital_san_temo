@@ -135,7 +135,9 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.pFecha);
             this.Controls.Add(this.label12);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ReagendarTurno";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ReagendarTurno";
             this.Load += new System.EventHandler(this.ReagendarTurno_Load);
             this.ResumeLayout(false);
